@@ -98,4 +98,8 @@ ul {
   li img {
     width: 80vw;
   }
+
+  input {
+    width: 60vw;
+  }
 }
