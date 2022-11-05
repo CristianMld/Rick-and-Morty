@@ -39,7 +39,7 @@ function App() {
         ))}
       </ul>
       <div className="footer">
-      <h3><i class="fa-solid fa-envelope"></i> hkrcrm@gmail.com</h3>
+      <h3><i className="fa-solid fa-envelope"></i> hkrcrm@gmail.com</h3>
         <h3>Made with 🤍 in Academlo</h3>
       </div>
     </div>
