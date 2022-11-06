@@ -23,7 +23,7 @@ function App() {
     <div className="App">
       <div className="main-photo"></div>
       <h1 className='main-title'>Rick and Morty Wiki</h1>
-      <input onClick={() => setTypeId('')} type="text" placeholder='type a location id between 1 and 126' value={typeId} onChange={e => setTypeId(e.target.value)}/>
+      <input type="text" placeholder='type a location id between 1 and 126' value={typeId} onChange={e => setTypeId(e.target.value)}/>
       <button onClick={searchType}><i className="fa-solid fa-magnifying-glass"></i></button>
       <h1 className='location-name'>{location.name}</h1>
       <div className="location-info">
